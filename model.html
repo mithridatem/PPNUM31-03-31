@@ -32,5 +32,16 @@
     </ul>
     <br>
     <br>
+    <script>
+        //fonction js pour le menu
+        $(document).ready(function(){ 
+    
+        $(".menu li").hover(function(){
+            $('ul:first',this).stop().slideDown();
+        },function(){
+            $('ul:first',this).stop().slideUp();  
+        });
+        });
+    </script>
 </body>
 </html>
