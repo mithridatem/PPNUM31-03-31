@@ -4,43 +4,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/stylejquery.css">
-    <script src="./script/script.js" defer></script>
-    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"/>
     <title>PPNUM31-03-21</title>
 </head>
 <body>
-    <!-- Menu HTML -->
-    <ul class="menu">
-        <li><a href="#">Accueil</a>
-            <li><a href="#">Stagiaires</a>
-                <ul>
-                    <li><a href="nom.html">nom stagiaire</a></li>
-                    <li><a href="nom.html">nom stagiaire</a></li>
-                    <li><a href="nom.html">nom stagiaire</a></li>
-                    <li><a href="nom.html">nom stagiaire</a></li>
-                    <li><a href="nom.html">nom stagiaire</a></li>
-                    <li><a href="nom.html">nom stagiaire</a></li>
-                    <li><a href="nom.html">nom stagiaire</a></li>
-                    <li><a href="nom.html">nom stagiaire</a></li>              
-                </ul>
-            </li>
-        </li>
-    </ul>
-    <br>
-    <br>
-    <script>
-        //fonction js pour le menu
-        $(document).ready(function(){ 
-    
-        $(".menu li").hover(function(){
-            $('ul:first',this).stop().slideDown();
-        },function(){
-            $('ul:first',this).stop().slideUp();  
-        });
-        });
-    </script>
+    <nav>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Contact</a></li>
+                                                    <!--Exemple à compléter par le groupe -->
+            <li><a href="#">PPNUM 31</a>
+            <ul>
+                <li><a href="#">Discord</a></li>
+                <li><a href="#">Stage</a></li>
+                <li><a href="#">Ambiance</a></li>
+            </ul>
+                <li><a href="#">Stagiaire</a>
+        <ul>
+            <li><a href="#">Antessa</a></li>
+            <li><a href="#">Kevin</a></li>
+            <li><a href="#">Andy</a></li>
+            <li><a href="#">Pierre</a></li>
+            <li><a href="#">Raphaël</a></li>
+            <li><a href="#">Alexandre</a></li>
+            <li><a href="#">Johann</a></li>
+            <li><a href="outmane.html">Outmane</a></li>
+        </ul>
+    </nav>
+    <header class="video-header">
+    <video src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/Island%20-%204141.mp4" autoplay loop playsinline muted></video>
+    <div class="viewport-header">
+        <h1>
+        <p>Merci au groupe</p>
+        <span>Merci ADRAR</span>
+        </h1>
+    </div>
+    </header>
+    <main>
+    Merci à tous les formateurs
+    </main>
+    <div id="circle"></div>
 </body>
 </html>
