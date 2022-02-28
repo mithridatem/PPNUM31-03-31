@@ -42,6 +42,19 @@ float:none;
 li > a:after { 
     content: ' '; 
 } 
-li > a:only-child:after { 
-    content: ''; 
+li > a:only-child:after { content: ''; 
+}
+h1{  font-size : 35px;
+    text-align: center;
+    color :violet;}
+    
+    
+h2{  font-size : 35px;
+    text-align: center;
+    color :blue;}
+
+p{
+    font-size : 35px;
+    text-align: center;
+    color :black;
 }
